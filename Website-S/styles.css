@@ -351,6 +351,13 @@ header h1 {
         z-index: 10; /* Place above the image */
         transition: background-color 0.3s ease;
     }
+
+    .book-session-btn {
+        font-size: 1rem; /* Reduce font size */
+        padding: 0.8rem 1.5rem; /* Adjust padding */
+        bottom: 15px; /* Slightly reduce the bottom space */
+        right: 15px; /* Adjust the position for smaller screens */
+    }
   
 }
 #services {
