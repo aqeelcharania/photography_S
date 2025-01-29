@@ -330,8 +330,7 @@ header h1{
 }
 
 footer {
-    background-color: rgb(77, 45, 20); /* Same as body color for harmony */
-    background: linear-gradient(135deg, #4C3A2E, #B57C50); /* A more unique and lively woody gradient */
+    background: linear-gradient(135deg, #e6b16d, #b99376);
     border: 1px solid #ffffff; /* Subtle contrast border to match gradient */
     border-radius: 50px;
     
