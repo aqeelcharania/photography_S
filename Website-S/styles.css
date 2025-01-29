@@ -404,7 +404,32 @@ footer .contact-form button:hover {
     background-color: #000000;
 }
 
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
 
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.social-icons .facebook {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg');
+}
+
+.social-icons .instagram {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png');
+}
 
 /* For Mobile Devices */
 @media (max-width: 768px) {
