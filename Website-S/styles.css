@@ -353,10 +353,13 @@ header h1 {
     }
 
     .book-session-btn {
-        font-size: 1rem; /* Reduce font size */
         padding: 0.8rem 1.5rem; /* Adjust padding */
         bottom: 15px; /* Slightly reduce the bottom space */
         right: 15px; /* Adjust the position for smaller screens */
+        padding: 0.6rem 1.2rem;
+        font-size: 0.8rem;
+        padding: 1rem 2rem;
+        border-radius: 6px;
     }
   
 }
