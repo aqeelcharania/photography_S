@@ -79,8 +79,8 @@ header {
     align-items: center;
     justify-content: space-between; /* Space between logo+title and nav */
     padding: 10px;
-    position: relative;
-}
+    position: sticky;
+}}
 
 /* Logo + Title container */
 .logo-title-container {
