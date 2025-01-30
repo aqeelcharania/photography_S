@@ -14,7 +14,6 @@ body {
 body.scrolled header {
     background-color: #ffffff;
 }
-
 .dropdown{
     display: none;
 }
@@ -80,7 +79,7 @@ header {
     justify-content: space-between; /* Space between logo+title and nav */
     padding: 10px;
     position: sticky;
-}}
+}
 
 /* Logo + Title container */
 .logo-title-container {
@@ -320,6 +319,8 @@ header h1{
 .scroll-down:hover {
     color: rgb(0, 0, 0);
 }
+
+
 @keyframes bounce {
     0% {
         transform: translateX(-50%) translateY(0);
@@ -333,7 +334,8 @@ header h1{
 }
 
 footer {
-    background: linear-gradient(135deg, #e6b16d, #b99376);
+    /* background-color: rgb(238, 150, 83); Same as body color for harmony */
+    background: linear-gradient(135deg, #e6b16d, #b99376); /* A more unique and lively woody gradient */
     border: 1px solid #ffffff; /* Subtle contrast border to match gradient */
     border-radius: 50px;
     
@@ -435,6 +437,7 @@ footer .contact-form button:hover {
 .social-icons .whatsapp {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg');
 }
+
 /* For Mobile Devices */
 @media (max-width: 768px) {
     /* Header adjustments */
@@ -575,12 +578,12 @@ footer .contact-form button:hover {
         transition: background-color 0.3s ease;
     }
        .book-session-btn {
-        bottom: 35px; /* Slightly reduce the bottom space */
+        bottom: 25px; /* Slightly reduce the bottom space */
         right: 20px; /* Adjust the position for smaller screens */
         padding: 0.6rem 1.2rem;
         font-size: 0.6rem;
-        padding: 0.8rem 1rem;
-        border-radius: 8px;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
     }
   
   
