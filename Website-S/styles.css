@@ -11,6 +11,9 @@ body {
     color: rgb(77, 45, 20);
     line-height: 1.6;
 }
+body.scrolled header {
+    background-color: #ffffff;
+}
 
 .dropdown{
     display: none;
