@@ -534,7 +534,7 @@ footer .contact-form button:hover {
 
 /* Hamburger Lines */
 .dropbtn .line {
-    background-color: black;
+     background-color: rgb(255, 255, 255);
     height: 4px; /* Thicker lines for better visibility */
     width: 30px;
     border-radius: 2px;
