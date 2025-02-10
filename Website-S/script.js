@@ -104,3 +104,26 @@ document.addEventListener('DOMContentLoaded', function() {
         form.addEventListener('submit', sendForm);
     }
 });
+
+window.addEventListener('scroll', () => {
+    document.body.classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+// Handle menu toggle
+function toggleMenu() {
+    const menu = document.querySelector('.dropdown-content');
+    const button = document.querySelector('.dropbtn');
+    
+    menu.classList.toggle('show');
+    button.classList.toggle('active');
+}
+
+// Close the menu if clicked outside
+document.addEventListener('click', function (event) {
+    const dropdown = document.querySelector('.dropdown');
+    const button = document.querySelector('.dropbtn');
+    if (!dropdown.contains(event.target)) {
+        document.querySelector('.dropdown-content').classList.remove('show');
+        button.classList.remove('active');
+    }
+});
